@@ -9,8 +9,14 @@ public class Robot {
     private boolean consumed = false;
     private boolean ready = false;
 
-    public void getName(Ramen ramen) {
-        this.ramen = ramen;
+    public Robot(String ramenName) {
+        if (ramenName.equals("shin")) {
+            this.ramen = new ShinRamen();
+        } else if (ramenName.equals("neoguri")) {
+            this.ramen = new NeoGuRiRamen();
+        } else if (ramenName.equals("jin")) {
+            this.ramen = new JinRamen();
+        }
     }
 
     public void addWater() {

@@ -1,19 +1,17 @@
 package HowToMakeRamen;
 
-import HowToMakeRamen.Ramen;
-
 public class Pot {
     
     private int waterAmountMl;
     private String ramenName;
     
-    public void addWater(int waterAmountMl) {
-        this.waterAmountMl = waterAmountMl;
+    public void addWater(int defaultWaterAmountMl) {
+        this.waterAmountMl = defaultWaterAmountMl;
         System.out.println("Water is added in the pot, " + waterAmountMl + "ml");
     }
 
-    public void addRamen(String ramenName) {
-        this.ramenName = ramenName;
+    public void addRamen(String defaultRamenName) {
+        this.ramenName = defaultRamenName;
         System.out.println(ramenName + " is added");
     }
 
