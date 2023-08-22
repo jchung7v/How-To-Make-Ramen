@@ -2,7 +2,7 @@ package HowToMakeRamen;
 
 public interface Ramen {
     
-    public String getRamenName();
+    public String getName();
     public int getWaterAmountMl();
     public int getSpicyLevel();
     public int getCookingTime();

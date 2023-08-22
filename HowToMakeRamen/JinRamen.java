@@ -9,7 +9,7 @@ public class JinRamen implements Ramen {
     private DryFlake flake = DryFlake.MIXED;
 
     @Override
-    public String getRamenName() {
+    public String getName() {
         return ramenName;
     }
 

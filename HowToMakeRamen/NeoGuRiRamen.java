@@ -9,7 +9,7 @@ public class NeoGuRiRamen implements Ramen {
     private DryFlake flake = DryFlake.VEGE;
 
     @Override
-    public String getRamenName() {
+    public String getName() {
         return ramenName;
     }
 

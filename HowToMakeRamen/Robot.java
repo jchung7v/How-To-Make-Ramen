@@ -9,7 +9,7 @@ public class Robot {
     private boolean consumed = false;
     private boolean ready = false;
 
-    public void setRamen(Ramen ramen) {
+    public void getName(Ramen ramen) {
         this.ramen = ramen;
     }
 
@@ -22,7 +22,7 @@ public class Robot {
     }
 
     public void addRamen() {
-        pot.addRamen(ramen.getRamenName());
+        pot.addRamen(ramen.getName());
     }
 
     public boolean isReady() {

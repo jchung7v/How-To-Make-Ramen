@@ -9,7 +9,7 @@ public class ShinRamen implements Ramen {
     private DryFlake flake = DryFlake.MEAT;
 
     @Override
-    public String getRamenName() {
+    public String getName() {
         return ramenName;
     }
 
