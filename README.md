@@ -13,15 +13,17 @@ Special thanks to Mr. Lee for helping me resolve questions that arose when I enc
 ## Screenshots
 
 ### My Planning
-![Paper1](./Images/howToMakeRamen01.png | width=225 height=500)
-![Paper2](./Images/howToMakeRamen02.png | width=225 height=500)
+
+<img width="225" alt="Paper_01" src="./Images/howToMakeRamen01.png">
+<img width="225" alt="Paper_02" src="./Images/howToMakeRamen02.png">
 
 ### The Executed Result
-![Result](./Images/howToMakeRamen03.png | width=225 height=500)
+
+<img width="225" alt="Paper_03" src="./Images/howToMakeRamen03.png">
 
 ## Technologies Used
 
-- Java
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ## Setup and Usage
 
@@ -46,7 +48,7 @@ Special thanks to Mr. Lee for helping me resolve questions that arose when I enc
 ├── testDriver.java                     # Java driver file (Run this to execute the program)
 ├── Images                              # Image files
 └── README.md
-\```
+```
 
 ### Source Files
 ```
