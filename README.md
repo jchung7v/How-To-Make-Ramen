@@ -4,17 +4,17 @@ This is a personal project aimed at teaching myself how to implement Object-Orie
 
 ## Description
 
-The program starts by allowing a robot to take an order (input) from a user specifying the type of ramen they wish to eat. Once the user selects a ramen, the robot initiates the cooking process. It begins by adding water, turning on the gas stove, and cooking the ramen. The process continues until the robot confirms that the gas stove has been safely turned off.
+The program begins with a robot taking an order (input) from a user, who specifies the type of ramen they wish to eat. After the user selects a ramen, the robot initiates the cooking process. This process includes adding water, turning on the gas stove, and cooking the ramen. The robot continues these steps until it confirms that the gas stove has been safely turned off.
 
-Before coding, I wrote down all the requirements on paper. I then used these requirements to create OOP analysis and design models, helping to organize the code's components. This approach was beneficial as it allowed me to write more concise code by planning out methods and attributes in advance. Although I had to revisit my initial plans to add or modify methods occasionally, for the most part, I was able to code strictly based on the requirements.
+Before starting the coding phase, I wrote down all the requirements on paper. Using these requirements, I created OOP analysis and design models to help organize the components of the code. This approach was beneficial because it allowed me to write more concise code by planning out methods and attributes in advance. Although I occasionally had to revisit my initial plans to add or modify methods, for the most part, I was able to code strictly based on these requirements.
 
-Special thanks to Mr. Lee for helping me resolve questions that arose when I encountered obstacles.
+Special thanks to Mr. Lee for helping me resolve questions and obstacles that I encountered.
 
 ## Screenshots
 
 ### My Planning
 
-<img width="225" alt="Paper_01" src="./Images/howToMakeRamen01.png">
+<img width="225" alt="Paper_01" src="./Images/howToMakeRamen01.png"> 
 <img width="225" alt="Paper_02" src="./Images/howToMakeRamen02.png">
 
 ### The Executed Result
