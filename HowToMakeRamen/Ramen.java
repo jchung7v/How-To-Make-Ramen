@@ -1,14 +1,16 @@
 package HowToMakeRamen;
 
-public interface Ramen {
+public abstract class Ramen {
+
+    private boolean ready = false;
     
-    public String getName();
-    public int getWaterAmountMl();
-    public int getSpicyLevel();
-    public int getCookingTime();
-    enum DryFlake { 
-        VEGE, MEAT, MIXED 
+    public abstract String getName();
+    public abstract int getWaterAmountMl();
+    public void cook() {
+        ready = true;
     }
-    public DryFlake getDryFlake();
+    public boolean isReady() {
+        return ready;
+    }
 }
 

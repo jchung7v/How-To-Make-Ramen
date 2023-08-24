@@ -3,53 +3,35 @@ package HowToMakeRamen;
 public class Robot {
     
     Pot pot = new Pot();
-    Ramen ramen;
     GasStove gasStove = new GasStove();
 
     private boolean consumed = false;
-    private boolean ready = false;
 
-    public Robot(String ramenName) {
-        if (ramenName.equals("shin")) {
-            this.ramen = new ShinRamen();
-        } else if (ramenName.equals("neoguri")) {
-            this.ramen = new NeoGuRiRamen();
-        } else if (ramenName.equals("jin")) {
-            this.ramen = new JinRamen();
-        }
-    }
-
-    public void addWater() {
-        pot.addWater(ramen.getWaterAmountMl());
+    public void addWater(int defaultWaterAmountMl) {
+        pot.addWater(defaultWaterAmountMl);
     }
 
     public void turnOnGasStove() {
         gasStove.turnOn();
     }
 
-    public void addRamen() {
-        pot.addRamen(ramen.getName());
+    public void addRamen(Ramen ramen) {
+        pot.addRamen(ramen);
     }
 
     public boolean isReady() {
-        if (!ready) {
-            System.out.println("Ramen is Ready");
-            serveRamen();
-        } else {
-            System.out.println("Ramen is not ready yet");
-        }
-        return ready;
+        return pot.isReady();
     }
 
     public void serveRamen() {
         consumed = true;
     }
 
-    public boolean isConsumed() {
+    public boolean isConsumed(Ramen ramen) {
         if (consumed) {
-            System.out.println("Ramen is consumed");
+            System.out.println(ramen.getName() + " is consumed");
         } else {
-            System.out.println("Ramen is not consumed");
+            System.out.println(ramen.getName() + " is not consumed");
         }
         return consumed;
     }
