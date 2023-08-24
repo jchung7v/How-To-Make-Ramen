@@ -39,7 +39,7 @@ Special thanks to Mr. Lee for helping me resolve questions that arose when I enc
 ## Project Structure
 
 ### Top-Level Directory
-\```
+```
 .
 ├── HowToMakeRamen                      # Source files
 ├── testDriver.class                    # Compiled file
@@ -49,7 +49,7 @@ Special thanks to Mr. Lee for helping me resolve questions that arose when I enc
 \```
 
 ### Source Files
-\```
+```
 .
 ├── ...
 ├── HowToMakeRamen
@@ -62,4 +62,4 @@ Special thanks to Mr. Lee for helping me resolve questions that arose when I enc
 │   ├── Robot.java                       # Source file
 │   └── ShinRamen.java                   # Source file
 └── ...
-\```
+```
